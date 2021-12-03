@@ -45,3 +45,5 @@ class BlogsController < ApplicationController
     params.require(:blog).permit(:title)
   end
 end
+
+
